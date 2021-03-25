@@ -1,0 +1,20 @@
+package kr.co.bitcamp.string02;
+
+public class ToLowerUpperTest {
+
+    public static void main(String[] args) {
+        
+        String str1 = "Java Programming";
+        System.out.println("대문자 : " + str1.toUpperCase());
+        
+        String str2 = "JAVA Programming";
+        System.out.println("소문자 : " + str2.toLowerCase());
+        
+        System.out.println(str1.equals(str2));
+        
+        // 대소문자를 구별하지않고 비교를 하고자 한다면 equalsIgnoreCase() 사용하면됨.
+        System.out.println(str1.equalsIgnoreCase(str2));
+        
+    }
+    
+}
